@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray
+}
+header {
+    background-color: #cccccc;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+#name {
+    background-color: gray;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+    padding: 36px;
+    float: left;
+    
+}
+
+#menu {
+    
+}
+
+#content {
+    box-sizing: border-box
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
