@@ -1,30 +1,96 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5
+}
+a{
+    color: #4aaaa5;
+    text-decoration: none;
+}
 body {
-    background-color: lightgray
+    background-image: url(../images/pattern.png);
 }
 header {
-    background-color: #cccccc;
+    float: left;
+    background: #ffffff;
     width: 100%;
     height: 100px;
     position: fixed;
+    top: 0;
+    border: #cccccc 2px;
+    margin-bottom: 50px;
+    
 }
 
 #name {
-    background-color: gray;
-    font-size: x-large;
+    box-sizing: border-box;
+    background-color:#4aaaa5;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-weight: bolder;
-    padding: 36px;
+    height: 100px;
+    padding: 30px;
     float: left;
+    position: relative;
+    left: 20%;
     
 }
+
+#menuwrapper {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0px;
+    left: 60%;
+    height: 100px; 
+}
+
 
 #menu {
-    
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
 }
 
+.listitem {
+    float: left;
+    color: #4aaaa5;
+    font-size: 25px;
+    position: relative;
+    padding: 35px 15px;
+
+}
+.listitem:after {
+    content: '';
+    height: 20%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #ddd;
+   
+   }
+
+
 #content {
-    box-sizing: border-box
-    width: 600px;
-    padding: 20px;
-    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    clear: both;
+    display: block;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 1px;
+    width: 960px;
+    height: 750px;
+    margin: 150px auto;
+
+    
+
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    background-color: #666666;
+    clear: both;
+
 }
