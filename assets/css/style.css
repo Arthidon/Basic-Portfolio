@@ -1,3 +1,10 @@
+* {
+    margin: o;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5
@@ -71,26 +78,45 @@ header {
    }
 
 
+
+
+
+
+
+#container {
+    min-height: 100%;
+}  
+
+
 #content {
     box-sizing: border-box;
+    overflow: auto;
+    padding-bottom: 75px;
     clear: both;
     display: block;
     background-color: #ffffff;
-    border-color: #dddddd;
-    border: 1px;
+    border: 2px #dddddd;
     width: 960px;
-    height: 750px;
+    height: 2000px;
     margin: 150px auto;
-
-    
-
-
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    height: 100px;
+
+#footertext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff
+}
+
+#footer {
+    position: relative;
+    height: 75px;
+    margin-top: -75px;
     background-color: #666666;
     clear: both;
-
 }
