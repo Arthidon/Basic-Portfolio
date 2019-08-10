@@ -5,7 +5,6 @@
 html, body{
     height: 100%;
 }
-
 p {
     color: #777777
 }
@@ -121,6 +120,43 @@ header {
     width: 90%;
 }
 
+form {
+    width: 850px;
+    color: #777777;
+    padding: 20px
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    height: 200px;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px #777777;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 15px; 
+}
+
+.submit:hover {
+    background-color: #666666
+}
+
 #footertext {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -132,7 +168,6 @@ header {
     left: 50%;
     color: #ffffff
 }
-
 #footer {
     position: relative;
     height: 75px;

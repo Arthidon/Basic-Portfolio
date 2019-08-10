@@ -27,38 +27,35 @@
             <div id="containter">
                 <section id="content">
                         
-                        <h1 id="bioh1">Gallery</h1>
+                        <h1 id="bioh1">Contact</h1>
                         
                         <hr id="aboutme">
 
                     <div>
                         <p>
-                            <table id="gallery">
-                                <tr>
-                                    <td>
-                                        <img src="assets/images/gal1.jpg">
-                                    </td>
-                                    <td>
-                                        <img src="assets/images/gal2.jpg">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="assets/images/gal3.jpg">
-                                    </td>
-                                    <td>
-                                        <img src="assets/images/gal4.jpg">
-                                    </td>    
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="assets/images/gal5.jpg">
-                                    </td>
-                                    <td>
-                                        <img src="assets/images/gal6.jpg">
-                                    </td>  
-                                </tr>
-                            </table>
+
+
+
+                            <form action="action_page.php" method="POST">
+                                <br>
+                                <label>Full Name:</label>
+                                <br>
+                                <input type="text" name="fullname" placeholder="John Smith">
+                                <br>
+                                <br>
+                                <label>Email:</label>
+                                <br>
+                                <input type="email" name="lastname" placeholder="example@gmail.com">
+                                <br><br>
+                                <label>Message:</label>
+                                <br>
+                                <textarea name="message"></textarea>
+                                <br><br>
+                                <button type="submit" class="submit" name="submit">submit</button>
+                            </form> 
+
+                            
+
                         </p>
 
                     </div>   
